@@ -1,0 +1,266 @@
+:root {
+  --blue: #003399;
+  --pink: #cc0066;
+  --grey: #b3cccc;
+  --white: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  width: 100vw;
+  min-height: 100vh;
+}
+header {
+  background-color: #003399;
+  position: fixed;
+  width: 100vw;
+}
+.itemNav {
+  padding: 1rem;
+}
+a {
+  text-decoration: none;
+}
+section {
+  margin: 0 auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  margin-bottom: 0.5rem;
+}
+#buttonDecode,
+#buttonEncode {
+  color: var(--white);
+  height: 3rem;
+  background: -webkit-linear-gradient(top, #dc3545, #ff1a1a, #ff8080);
+  border-radius: 50px;
+  border: none;
+  font-size: large;
+  font-family: "Varela Round", sans-serif;
+  padding: 0 1rem;
+}
+.containerButton {
+  padding: 0.5rem 5.5rem;
+}
+main {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid var(--grey);
+  border-radius: 3rem;
+  padding: 1rem 2rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+#result {
+  font-family: "Mukta", sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--blue);
+}
+.encrypCode {
+  display: none;
+}
+.text__1 {
+  font-size: 2rem;
+  font-family: "Poppins", "PT Serif", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.text__2 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Comforter", cursive;
+  color: var(--pink);
+}
+.textCode,
+.text__3 {
+  font-family: "Poppins", "PT Serif", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.text__4 {
+  padding-top: 1rem;
+  font-family: "Josefin Sans", "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+.condiciones {
+  text-transform: uppercase;
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  color: var(--grey);
+  text-align: justify;
+  padding: 5% 0;
+}
+footer {
+  width: 100%;
+  height: 9rem;
+  margin-top: auto;
+  text-align: center;
+  background-color: var(--blue);
+}
+.itemNav,
+#PromoGancia {
+  padding-top: 2rem;
+  color: var(--white);
+}
+input,
+textarea {
+  border: 1px solid var(--grey);
+  border-radius: 10px;
+  outline: none;
+  text-align: center;
+  width: 80%;
+  height: 5rem;
+  text-transform: uppercase;
+}
+.btnFacebook,
+.btnTwitter,
+.btnYoutube {
+  color: #dc3545;
+  width: 30px;
+  height: 30px;
+  margin-right: 2px;
+  margin-left: 2px;
+  border-radius: 50%;
+  border: #dc3545;
+}
+#imgCode,
+#codificar{
+  display: none;
+}
+#imgCode{
+  margin-top: 15rem;
+}
+#btnHome,
+#buttonBusiness{
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+@media (min-width: 600px) {
+  body {
+    width: 80%;
+    margin: 0 auto;
+  }
+  header {
+    position: static;
+    width: 100%;
+  }
+  .text__1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .text__2 {
+    font-size: 4rem;
+  }
+  .textCode,
+  .text__3 {
+    font-size: 2rem;
+  }
+  .text__4 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .containerButton {
+    padding: 0.5rem 8rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    background-color: var(--grey);
+  }
+  body {
+    width: 60%;
+    margin: 0 auto;
+    background-color: var(--white);
+  }
+  header {
+    height: 8rem;
+    padding-top: 1rem;
+  }
+  .itemNav {
+    font-size: 2.5rem;
+  }
+  main {
+    width: 75%;
+  }
+  img {
+    padding: 2.5rem;
+  }
+  .textCode,
+  .text__3 {
+    font-size: 3rem;
+  }
+
+  .text__4 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .containerButton {
+    padding: 0.5rem 10rem;
+  }
+  .condiciones {
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  .btnFacebook,
+  .btnTwitter,
+  .btnYoutube {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 3rem;
+  }
+  .promo {
+    font-size: 3rem;
+  }
+  footer {
+    height: 18rem;
+  }
+  .textCode {
+    font-size: 2.3rem;
+  }
+  #result,
+  input,
+  textarea {
+    font-size: 2rem;
+  }
+  #buttonDecode,
+  #buttonEncode{
+    font-size: 3rem;
+  }
+  #btnHome,
+  #buttonBusiness{
+  font-size: 2.2rem;
+}
+ #btnHome{
+  padding-left: 5rem;
+}
+}

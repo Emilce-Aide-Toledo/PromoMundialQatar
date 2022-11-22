@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>PromoGancia</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Josefin+Sans:wght@100&family=Mukta:wght@800&family=PT+Serif&family=Poppins:wght@200&family=Raleway:wght@100&family=Rowdies&family=Syne+Tactile&family=Varela+Round&display=swap" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/acccf8509c.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+       <button id="btnHome" class="itemNav">INICIO</button>
+       <button id="buttonBusiness" class="itemNav">CIFRAR</button>
+      </nav>
+    </header>
+    <main id="container">
+      <div class="container__div__1">
+        <p class="text__1">Vive el mundial con Gancia</p>
+        <p class="text__2">Qatar 2022</p>
+        <img alt= "Imagen de hinchas alentando a Perú" src="Image/Hinchas.jpg" />
+        <p class="text__3">Disfruta de la final con tus amig@s.</p>
+        <p class="text__4">
+          Gana un paquete todo incluido para ti y tus patas, y miles de premios
+          más.
+        </p>
+      </div>
+    </main>
+
+    <section>
+      <div id="imgCode">
+         <img src="Image/img-gancia2.jpg" alt="Imagen de mesa familiar">
+      </div>
+      <div id="div__result">
+        <p id="result"></p>
+      </div>
+
+      <form id="form__encrypCode__N">
+        <label class="textCode">Ingrese el número de la tapa</label>
+        <input id="encrypCodeN" type="number" placeholder="N°" min="1" max="10" />
+      </form>
+
+      <form id="formCode">
+        <label for="bottleDecode" class="textCode">Ingrese el código de la etiqueta</label>
+        <textarea id="decipherCode" placeholder="¡Prueba tu Suerte!"></textarea>
+      </form>
+
+      <div class="containerButton" id="containerCode">
+        <button type="button" id="buttonDecode">¡Prueba tu suerte!</button>
+      </div>
+
+      <form>
+        <label for="bottleCipher" class="textCode encrypCode">Ingresa el código de la etiqueta</label>
+        <textarea class="encrypCode1" id="codificar" type="'text" placeholder="¡A Codificar!"></textarea>
+        <div class="containerButton">
+          
+         <button type="button" id="buttonEncode" class="encrypCode">
+            Codificar
+          </button>
+
+        </div>
+      </form>
+
+    </section>
+    <div class="condiciones">
+      <p>
+        Podrán participar en la promoción todas las personas físicas mayores de
+        18 años, domiciliadas en la República del Perú que sigan el mecanismo de
+        participación establecido. Tendrá vigencia desde las 08:00 horas del 10
+        de enero de 2022 hasta las 23:59 horas del 30 de Junio de 2022, ambas
+        fechas inclusive, o hasta agotar stock de premios mencionados, lo que
+        ocurra primero.
+      </p>
+    </div>
+    <footer>
+      <div id="PromoGancia">
+        <p class="promo">#PROMOGANCIA</p>
+        <button class="btnFacebook"><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+        </button>
+        <button class="btnTwitter"><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+        </button>
+        <button class="btnYoutube"><a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </button>
+      </div>
+    </footer>
+
+    <script async src="index.js" type="module"></script>
+  </body>
+</html>
