@@ -1,2 +1,2 @@
 # Cipher
-El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
+El cifrado césar es una de las técnicas más simples para cifrar un mensaje. En este sitio web se utiliza para la #PROMOGANCIA "Te lleva al Mundial: Qatar 2022"
